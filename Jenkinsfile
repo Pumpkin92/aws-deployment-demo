@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/cabBooking.git'
+                git 'https://github.com/Pumpkin92/aws-deployment-demo.git'
             }
         }
         stage('Build with Maven') {
